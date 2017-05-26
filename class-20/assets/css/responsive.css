@@ -1,0 +1,59 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    .main-menu ul li {
+      padding-left: 50px;
+    }
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ .main-menu ul li {
+  padding-left: 55px;
+}
+ 
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ .footer-menu > ul {
+    text-align: center;
+}
+.footer-social-item {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.big-blog-content p.meta {
+  padding-top: 40px;
+}
+  
+.main-menu {
+  display: none;
+}
+   .responsive-menu {
+  display: block;
+}
+
+.responsive-menu {
+    position: absolute;
+    right: 16px;
+    top: -111px;
+    z-index: 3;
+}
+.slicknav_menu .slicknav_menu {
+    background: #000 none repeat scroll 0 0;
+}
+.slicknav_menu {
+    background: #000 none repeat scroll 0 0;
+}
+.slicknav_menu ul {
+    text-align: left;
+}
+
+
+
+ 
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    
+}
