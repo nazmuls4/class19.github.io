@@ -1,0 +1,128 @@
+
+/* Base CSS */
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight:300;
+}
+
+
+body { 
+font-family: 'Roboto', sans-serif;
+line-height: 1.714;
+font-weight:300;
+}
+
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+
+
+
+.header-top-area {
+   background: #218ae6 none repeat scroll 0 0;
+	padding: 10px 0;
+	position: relative;
+}
+.header-top-area, .header-top-area a {
+    color: #fff;
+}
+.header-top-area p {
+    margin: 0;
+    padding: 0;
+}
+.header-top-area-right i.fa {
+    padding-left: 30px;
+    padding-right: 11px;
+}
+
+
+.main-menu {
+    background: #fff none repeat scroll 0 0;
+    position: relative;
+}
+.main-menu, .main-menu a {
+    color: #222;
+}
+.logo h3 {
+    color: #000;
+    font-weight: 700;
+    margin: 0;
+    padding: 25px 0;
+}
+.menu-list ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.menu-list ul li {
+    display: inline-block;
+    margin-left: 40px;
+}
+.menu-list ul li a {
+    display: block;
+    padding: 25px 0;
+    text-transform: uppercase;
+}
+.homepage-slide {
+    background: #218ae6 none repeat scroll 0 0;
+    color: #fff;
+	padding: 100px 0;
+}
+.single-homepage-slide {
+}
+.slider-content-left h2 {
+    font-size: 55px;
+    line-height: 60px;
+    margin-bottom: 35px;
+}
+.readmore-btn a {
+    background: #f9cf25 none repeat scroll 0 0;
+    color: #222;
+    display: inline-block;
+    font-weight: 800;
+    padding: 15px 21px;
+    text-transform: uppercase;
+}
+.readmore-btn a i.fa {
+    margin-left: 10px;
+}
+.slider-content-right img {
+    height: auto;
+    width: 100%;
+}
+.homepage-slide .owl-controls .owl-dots {
+    text-align: center;
+}
+.homepage-slide .owl-controls .owl-dots div {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 50%;
+    display: inline-block;
+    height: 20px;
+    margin: 10px;
+    transition: all 1s ease 0s;
+    width: 20px;
+}
+.homepage-slide .owl-controls {
+    margin-top: 75px;
+}
+.homepage-slide .owl-controls .owl-dots div.active {
+    background: #f9cf25 none repeat scroll 0 0;
+}
+.homepage-slide .owl-controls .owl-dots div:hover {
+    background: #f9cf25 none repeat scroll 0 0;
+}
+
