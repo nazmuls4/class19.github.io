@@ -1,0 +1,88 @@
+
+/* Base CSS */
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight:700;
+}
+
+
+body { 
+font-family: 'Roboto', sans-serif;
+line-height: 1.714;
+font-weight:400;
+}
+
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+.feuture-section {
+    padding: 100px 0;
+}
+.section-heading {
+    margin-bottom: 60px;
+}
+.future-item-bg {
+    background: #ddd none repeat scroll 0 0;
+    height: 115px;
+    position: relative;
+    width: 100%;
+}
+.future-item-bg::before {
+    background: #6aaf08 none repeat scroll 0 0;
+    bottom: -5px;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: -5px;
+    width: 100%;
+    z-index: -1;
+}
+.future-item-content h3 {
+    border-bottom: 1px dashed #000;
+    padding-bottom: 20px;
+}
+
+.big-future-item-bg {
+    background: #ddd none repeat scroll 0 0;
+    height: 330px;
+    margin-left: 35px;
+    position: relative;
+    width: 100%;
+}
+.big-future-item-bg::after {
+    background: #222 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 100%;
+    opacity: 0.6;
+    position: absolute;
+    right: 0;
+    width: 100%;
+}
+.big-future-item-bg::before {
+    background: #6aaf08 none repeat scroll 0 0;
+    bottom: -5px;
+    content: "";
+    height: 100%;
+    left: -5px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+.future-item .row {
+    margin-bottom: 30px;
+}
