@@ -38,6 +38,13 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     position: relative;
 }
 .main-menu {
+	height: auto;
+left: 0;
+padding: 15px 0;
+position: absolute;
+top: 0;
+width: 100%;
+z-index: 2;
 }
 .menu-content ul {
     list-style: outside none none;
@@ -48,8 +55,13 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     display: inline-block;
 }
 .menu-content ul li a {
-    display: block;
+    color: #fff;
+display: block;
 padding: 25px 0 25px 25px;
+}
+}
+.menu-content ul li a:hover {
+    color: #E6AD21;
 }
 
 .logo a img {
