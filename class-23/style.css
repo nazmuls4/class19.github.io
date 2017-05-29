@@ -1,0 +1,72 @@
+
+/* Base CSS */
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight:700;
+}
+
+
+body { 
+font-family: 'Roboto', sans-serif;
+line-height: 1.714;
+font-weight:400;
+}
+
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+
+.service-section {
+    padding: 100px 0;
+}
+.section-heading {
+    margin-bottom: 40px;
+}
+.service-box {
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.service-box-bg {
+    background: #ddd none repeat scroll 0 0;
+    height: 170px;
+    position: relative;
+    width: 100%;
+}
+.service-box a.read-more-btn {
+    color: #222;
+    display: inline-block;
+    font-weight: 800;
+    margin-bottom: 26px;
+    padding: 11px;
+}
+
+.service-box-bg.servicebox-bg1 h3 {
+    background: #f97230 none repeat scroll 0 0;
+    bottom: 0;
+    color: #fff;
+    left: 6%;
+    margin: 0 0 -25px;
+    padding: 10px;
+    position: absolute;
+    width: 88%;
+}
+.service-box-content {
+    padding: 45px 10px 10px;
+}
+.service-box a.read-more-btn i.fa {
+    margin-left: 15px;
+}
