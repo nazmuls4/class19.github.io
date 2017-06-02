@@ -1,0 +1,106 @@
+
+/* Base CSS */
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight:700;
+}
+
+
+body { 
+font-family: 'Roboto', sans-serif;
+line-height: 1.714;
+font-weight:400;
+}
+
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+.block-section-padding {
+    padding: 100px 0;
+}
+.form-content {
+    box-shadow: 0 0 10px #ddd;
+    padding: 35px;
+    width: 100%;
+}
+input[type="text"], input[type="mail"], input[type="email"], input[type="tel"], input[type="password"], textarea, input[type="submit"] {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: medium none;
+    padding: 15px;
+}
+.form-content input, textarea {
+    margin-bottom: 15px;
+    width: 100%;
+}
+.form-content input[type="submit"] {
+    background: #4daefe none repeat scroll 0 0;
+    color: #fff;
+    font-size: 16px;
+    margin: 0;
+    padding: 15px 34px;
+    width: auto;
+}
+.form-content textarea {
+    height: 200px;
+}
+
+.colored-box {
+    background: #4daefe none repeat scroll 0 0;
+padding: 35px 35px 145px;
+}
+.colored-box, .colored-box a {
+    color: #fff;
+}
+.form-content h3, .colored-box h3 {
+    margin-bottom: 65px;
+}
+.colored-box p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 25px;
+    padding-left: 45px;
+    position: relative;
+    text-transform: capitalize;
+}
+.colored-box p i.fa {
+    font-size: 25px;
+    left: 0;
+    line-height: 33px;
+    position: absolute;
+}
+.colored-box p a {
+    text-transform: lowercase;
+}
+
+.social-icon a {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #222;
+    display: inline-block;
+    font-size: 16px;
+    height: 50px;
+    line-height: 28px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    text-align: center;
+    transition: all 0.6s ease 0s;
+    width: 50px;
+}
+.social-icon a:hover {
+    color: #4daefe;
+}
