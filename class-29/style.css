@@ -28,3 +28,136 @@ a:hover { text-decoration: none }
 input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
     -webkit-box-shadow: 0 0 0px 1000px white inset !important;
 }
+
+.project-item-single{    
+    background-position: center center;
+    background-size: cover;
+	position:relative;
+}
+.project-bg-1 {
+    background-image: url("assets/img/projec-1.jpg");    
+}
+
+
+.project-bg-2 {
+    background-image: url("assets/img/projec-2.jpg");    
+}
+
+
+.project-bg-3 {
+    background-image: url("assets/img/projec-3.jpg");    
+}
+
+
+.project-bg-4 {
+    background-image: url("assets/img/projec-4.jpg");    
+}
+
+
+.project-bg-5 {
+    background-image: url("assets/img/projec-5.jpg");    
+}
+
+
+.project-bg-6{
+    background-image: url("assets/img/projec-6.jpg");    
+}
+
+
+.project-bg-7{
+    background-image: url("assets/img/projec-7.jpg");    
+}
+
+
+.project-bg-8 {
+    background-image: url("assets/img/projec-8.jpg");    
+}
+
+
+.project-bg-9 {
+    background-image: url("assets/img/projec-9.jpg");    
+}
+
+
+.row.project-item .col-md-4 {
+    margin-left: -7.5px;
+    margin-right: -7.5px;
+}
+.row.project-item {
+    margin-left: -7.5px;
+    margin-right: -7.5px;
+}
+
+
+
+
+.project-item-single {
+    height: 300px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.data-filter {
+  margin: 0 0 60px;
+}
+.data-filter ul {
+    list-style: outside none none;
+    margin: 0 ;
+    padding: 0;
+}
+
+
+.portfolio-area {
+    padding: 100px 0;
+}
+.data-filter ul li {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+
+
+.project-item-single-hover {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+	
+}
+.project-item-single-hover::after {
+    background: #222 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.project-item-single-hover a {
+    font-size: 18px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+.project-item-single-hover a, .project-item-single-hover h4 span {
+    color: #00ddd6;
+}
+.project-item-single-hover h4 {
+    bottom: 30px;
+    color: #fff;
+    font-size: 20px;
+    left: 30px;
+    position: absolute;
+    text-transform: uppercase;
+}
+.project-item-single-hover h4 span {
+    display: block;
+    font-size: 80%;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
