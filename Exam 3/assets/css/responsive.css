@@ -1,0 +1,66 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+   .hero-content h2 {
+  font-size: 28px;
+  font-weight: 400;
+}
+    .hero-area-row {
+ background: rgba(0, 0, 0, 0) linear-gradient(to right, #ffffff 0%, #f78be0 34%, #f78be0 70%, #faa9ed 100%, #fcd5f0 100%) repeat scroll 0 0;
+height: 800px;
+margin: 70px 0;
+padding: 0 0 114px;
+}
+    
+.logo, .main-menu, .footer-left, .social-icon {
+    text-align: center;
+}
+.header-top, .hero-content, .footer-area {
+    padding: 20px;
+}
+ 
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+  .hero-content h2 {
+  font-size: 28px;
+  font-weight: 400;
+}
+    .hero-area-row {
+  background: rgba(0, 0, 0, 0) linear-gradient(to right, #ffffff 0%, #f78be0 34%, #f78be0 70%, #faa9ed 100%, #fcd5f0 100%) repeat scroll 0 0;
+  height: 779px;
+  margin: 70px 0;
+  padding: 88px 0;
+}
+    
+.logo, .main-menu, .footer-left, .social-icon {
+    text-align: center;
+}
+.header-top, .hero-content, .footer-area {
+    padding: 20px;
+}
+
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+      .hero-content h2 {
+  font-size: 28px;
+  font-weight: 400;
+}
+    .hero-area-row {
+  background: rgba(0, 0, 0, 0) linear-gradient(to right, #ffffff 0%, #f78be0 34%, #f78be0 70%, #faa9ed 100%, #fcd5f0 100%) repeat scroll 0 0;
+  height: 779px;
+  margin: 70px 0;
+  padding: 88px 0;
+}
+    
+.logo, .main-menu, .footer-left, .social-icon {
+    text-align: center;
+}
+.header-top, .hero-content, .footer-area {
+    padding: 20px;
+}
+}

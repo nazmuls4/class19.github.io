@@ -1,0 +1,124 @@
+
+/* Base CSS */
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight:700;
+    color: #324249;
+}
+
+
+body { 
+font-family: 'Roboto', sans-serif;
+line-height: 1.714;
+font-weight:400;
+    font-size: 16px;
+}
+
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+
+.hero-area {
+   
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b1b1b1+0,7580a0+47,ac867e+100,b19dac+100 */
+background: rgb(177,177,177); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(177,177,177,1) 0%, rgba(117,128,160,1) 47%, rgba(172,134,126,1) 100%, rgba(177,157,172,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(177,177,177,1) 0%,rgba(117,128,160,1) 47%,rgba(172,134,126,1) 100%,rgba(177,157,172,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(177,177,177,1) 0%,rgba(117,128,160,1) 47%,rgba(172,134,126,1) 100%,rgba(177,157,172,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b1b1b1', endColorstr='#b19dac',GradientType=1 ); /* IE6-9 */
+
+}
+.hero-area-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.hero-area-table-cell {
+    display: table-cell;
+    height: auto;
+    vertical-align: middle;
+    width: 100%;
+}
+.hero-content h2 {
+    font-size: 39px;
+    font-weight: 400;
+}
+
+.hero-area-row {
+    margin: 70px 0;
+    padding: 60px 0px;
+     height: 500px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f78be0+34,f78be0+70,faa9ed+100,fcd5f0+100 */
+        background: #ffffff; /* Old browsers */
+        background: -moz-linear-gradient(left, #ffffff 0%, #f78be0 34%, #f78be0 70%, #faa9ed 100%, #fcd5f0 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, #ffffff 0%,#f78be0 34%,#f78be0 70%,#faa9ed 100%,#fcd5f0 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, #ffffff 0%,#f78be0 34%,#f78be0 70%,#faa9ed 100%,#fcd5f0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fcd5f0',GradientType=1 ); /* IE6-9 */
+    width: ;
+}
+
+
+.hero-content a {
+    color: #000;
+}
+
+
+
+.footer-area {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+.social-icon a {
+    color: #b1a5af;
+    font-size: 19px;
+    margin-left: 10px;
+}
+.header-top {
+    margin-bottom: 60px;
+}
+.logo h2 a {
+}
+.logo a, .logo h2 {
+    color: #324249;
+    font-size: 35px;
+    font-weight: 400;
+}
+.main-menu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.main-menu ul li a {
+    color: #9d7d75;
+}
+.main-menu ul li {
+    display: inline-block;
+}
+
+
+
+.header-top {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.hero-content {
+    padding-left: 70px;
+}
+.footer-area {
+    padding-left: 70px;
+    padding-right: 70px;
+}
