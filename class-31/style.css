@@ -1,0 +1,138 @@
+
+/* Base CSS */
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight:700;
+}
+
+
+body { 
+font-family: 'Roboto', sans-serif;
+line-height: 1.8;
+font-weight:400;
+font-size: 15px;
+max-height: 100%;
+}
+
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+
+.section-bg-1 {
+    background-image: url("./assets/img/projec-4.jpg");
+}
+
+.section-bg-2 {
+    background-image: url("./assets/img/projec-6.jpg");
+}
+
+.section-bg-3 {
+    background-image: url("./assets/img/projec-10.jpg");
+}
+
+.section-padding {
+    background-position: center center;
+    background-size: cover;
+    background-color: #222;
+}
+html, body, .full-height {
+    height: 100%;
+}
+.section-padding {
+    padding: 100px 0;
+    color: #fff;
+}
+.section-padding.full-height {
+    padding: 0;
+}
+.section-padding.full-height.overly.section-bg-1 {
+}
+.full-height {
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+.section-padding-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.section-padding-table-cell {
+    display: table-cell;
+    height: auto;
+    vertical-align: middle;
+    width: 100%;
+}
+
+
+.overly {
+    position: relative;
+    z-index: 1;
+}
+.overly {
+  background-attachment: fixed;
+}
+.overly::after, .single-service-item::after {
+    background: #222 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.single-service-item {
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    z-index: 2;
+}
+.single-service-item::after {
+    opacity: 0.8;
+}
+.service-icon {
+    font-size: 70px;
+    line-height: 100px;
+}
+.single-service-item h2 {
+    text-transform: capitalize;
+}
+.learn-more {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+.single-service-item, .single-service-item a {
+    color: #fff;
+}
+
+.take-tour {
+    color: #fff;
+}
+.take-out-btn {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #222;
+    display: inline-block;
+    height: 100px;
+    line-height: 85px;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+}
