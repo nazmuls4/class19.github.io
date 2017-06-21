@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Changa:300,400,700,800|Roboto:300,400,700,900');
+/* Base CSS */
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight:700;font-family: 'Changa', sans-serif; font-weight: 800;
+}
+
+
+body { 
+font-family: 'Roboto', sans-serif;
+line-height: 1.8;
+font-weight:400;
+font-size: 15px;
+max-height: 100%;
+}
+
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+.section-padding {
+    background: #222931 none repeat scroll 0 0;
+    padding: 100px 0;
+    position: relative;
+}
+.section-padding, .section-padding a {
+    color: #fff;
+}
+.absulate-bg-1 {
+    background-image: url("./assets/img/bg.jpg");
+}
+.absulate-bg-2 {
+    background-image: url("./assets/img/bg-2.jpg");
+}
+.section-padding-absulate-bg {
+    background-position: center center;
+    background-size: cover;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    z-index: 1;
+}
+.absulate-content {
+    padding-left: 70px;
+    padding-right: 40px;
+    position: relative;
+}
+.absulate-content h2 {
+    text-transform: uppercase;
+}
+a.readmore {
+    border: 1px solid #fff;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.absulate-content::before {
+    background: #767a7f none repeat scroll 0 0;
+    content: "";
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 2px;
+}
+
+.absulate-content::after {
+  
+    border-bottom: 20px solid transparent;
+border-left: 20px solid #222931;
+border-top: 20px solid transparent;
+content: "";
+height: 0;
+margin-top: -25px;
+position: absolute;
+right: -35px;
+top: 50%;
+width: 0;
+z-index: 6;
+}
+
+
+.absulate-content-2 .absulate-content::after {
+  border-bottom: 20px solid transparent;
+border-left: 20px solid #222931;
+border-top: 20px solid transparent;
+content: "";
+height: 0;
+left: -104px;
+margin-top: -25px;
+position: absolute;
+right: auto;
+top: 50%;
+transform: rotate(180deg);
+width: 0;
+z-index: 6;
+}
+
+
+.absulate-content p {
+    color: #c1bca0;
+}
+
+
+.section-padding-absulate-bg.absulate-bg-2 {
+    left: 0;
+    right: auto;
+}
+
+.absulate-content-2 .absulate-content {
+    margin-left: 70px;
+    padding-right: 0;
+}
+.section-padding-absulate-bg::after {
+    background: #222 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    opacity: 0.6;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
