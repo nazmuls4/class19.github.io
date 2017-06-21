@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Changa:300,400,700,800|Roboto:300,400,700,900');
+/* Base CSS */
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight:700;font-family: 'Changa', sans-serif; font-weight: 800;
+}
+
+
+body { 
+font-family: 'Roboto', sans-serif;
+line-height: 1.8;
+font-weight:400;
+font-size: 15px;
+max-height: 100%;
+}
+
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+.slider-area {
+    background-image: url("./assets/img/bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    width: 100%;
+}
+.slider-single-item {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+.slider-content {
+    background: #1784c7 none repeat scroll 0 0;
+    padding: 65px 65px 65px 0;
+    position: relative;
+}
+.slider-content, .slider-content a {
+    color: #fff;
+}
+.slider-content::before {
+    background: #1784c7 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: -4000%;
+    position: absolute;
+    top: 0;
+    width: 4000%;
+}
+.slider-content h2 {
+    font-size: 50px;
+}
+a.book-btn {
+    background: #3e4043 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+}
+
+.slider-content::after {
+    background: #1784c7 none repeat scroll 0 0;
+    content: "";
+    height: 40px;
+    position: absolute;
+    right: -20px;
+    transform: rotate(45deg);
+    width: 40px;
+}
