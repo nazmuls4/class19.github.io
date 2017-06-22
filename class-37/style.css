@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Changa:300,400,700,800|Roboto:300,400,700,900');
+/* Base CSS */
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+   
+}
+
+
+body { 
+font-family: 'Roboto', sans-serif;
+line-height: 1.8;
+font-weight:400;
+font-size: 15px;
+max-height: 100%;
+}
+
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+.team-area {
+    padding: 100px 0;
+    position: relative;
+}
+.single-team-bg {
+    background-image: url("./assets/img/team-1.png");
+    background-position: center top;
+    background-size: cover;
+    height: 240px;
+}
+.team-content {
+    border: 1px solid #000;
+    font-weight: 300;
+    margin-top: 45px;
+    padding-bottom: 25px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+}
+.team-title {
+    margin-top: -28px;
+}
+.team-title h2 {
+    background: #fff none repeat scroll 0 0;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 10px 10px 0;
+}
+.team-content h3 {
+}
+
+.section-heading {
+    position: relative;
+}
+.section-heading {
+    padding-left: 25px;
+}
+.section-heading h2 {
+    display: inline-block;
+    margin-left: -35px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    transform: rotate(270deg);
+}
+.section-heading::before {
+    background: #222 none repeat scroll 0 0;
+    content: "";
+    height: 149px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 2px;
+}
+
+.blank_height {
+    height: 5px;
+    margin-top: 100px;
+    width: 100%;
+}
