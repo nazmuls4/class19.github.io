@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Changa:300,400,700,800|Roboto:300,400,700,900');
+/* Base CSS */
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+   
+}
+
+
+body { 
+font-family: 'Roboto', sans-serif;
+line-height: 1.8;
+font-weight:400;
+font-size: 15px;
+max-height: 100%;
+}
+
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+
+.header-area {
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+.header-area {
+    background-image: url("./assets/img/bg-1.jpg");
+}
+.site-logo img {
+    max-height: 95px;
+}
+.main-menu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.main-menu ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.main-menu ul li a {
+    color: #fff;
+    display: block;
+    padding: 35px 0;
+    text-transform: capitalize;
+}
+.herox-text-content {
+    position: relative;
+}
+.herox-mobl {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
+.herox-mobl img {
+    max-height: 429px;
+    max-width: 375px;
+}
+.hero-content {
+    max-width: 535px;
+    padding: 110px 0;
+}
+.hero-content h2 {
+    font-size: 45px;
+    line-height: 1.2;
+}
+.header-area::after {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#211466+0,dcb1c5+100,b19dac+100 */
+background: rgb(33,20,102); /* Old browsers */
+background: -moz-linear-gradient(45deg, rgba(33,20,102,1) 0%, rgba(220,177,197,1) 100%, rgba(177,157,172,1) 100%); /* FF3.6-15 */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(33,20,102,1)), color-stop(100%,rgba(220,177,197,1)), color-stop(100%,rgba(177,157,172,1))); /* Chrome4-9,Safari4-5 */
+background: -webkit-linear-gradient(45deg, rgba(33,20,102,1) 0%,rgba(220,177,197,1) 100%,rgba(177,157,172,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: -o-linear-gradient(45deg, rgba(33,20,102,1) 0%,rgba(220,177,197,1) 100%,rgba(177,157,172,1) 100%); /* Opera 11.10-11.50 */
+background: -ms-linear-gradient(45deg, rgba(33,20,102,1) 0%,rgba(220,177,197,1) 100%,rgba(177,157,172,1) 100%); /* IE10 preview */
+background: linear-gradient(45deg, rgba(33,20,102,1) 0%,rgba(220,177,197,1) 100%,rgba(177,157,172,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211466', endColorstr='#b19dac',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    
+    
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.herox-text-content, .herox-text-content a {
+    color: #fff;
+}
+.btn-content a {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+.btn-content {
+    margin-top: 15px;
+}
+.btn-content a.btn-bordared {
+    border: 1px solid #fff;
+    border-radius: 50px;
+}
+.btn-content a.btn-underline {
+    text-decoration: underline;
+}
+
+
+.header-top-area {
+    padding: 10px 0;
+    position: relative;
+}
+.header-top-area::after {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    opacity: 0.2;
+    position: absolute;
+    width: 100%;
+}
+
