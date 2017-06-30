@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Changa:300,400,700,800|Roboto:300,400,700,900');
+/* Base CSS */
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+   
+}
+
+
+body { 
+font-family: 'Roboto', sans-serif;
+line-height: 1.8;
+font-weight:400;
+font-size: 15px;
+max-height: 100%;
+}
+
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+
+.section-bg {
+    background-attachment: fixed;
+    background-image: url("./assets/img/bg.jpg");
+    background-position: center top;
+    background-size: cover;
+}
+
+
+.single-price {
+    float: left;
+position: relative;
+text-align: center;
+text-transform: uppercase;
+width: 33.333%;
+z-index: 1;
+}
+.pricing-image {
+    display: table;
+    height: 215px;
+    width: 100%;
+}
+.pricing-image-inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+.pricing-image-inner img {
+    max-height: 160px;
+    max-width: 160px;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+
+.pricing-content-inner {
+    background: #fff none repeat scroll 0 0;
+}
+.pricing-content-inner h2 {
+    color: #64b5ff;
+    display: inline-block;
+    margin: 20px 0;
+    padding-bottom: 9px;
+    position: relative;
+}
+.pricing-content-inner h2::after {
+    background: #64b5ff none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 5px;
+    left: 50%;
+    margin-left: -25px;
+    position: absolute;
+    width: 50px;
+}
+.pricing-content-inner h3 span {
+    color: #fb5d6b;
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+}
+.pricing-content-inner h3 span::before {
+    content: "$";
+    font-size: 25px;
+    font-weight: 400;
+    left: -18px;
+    position: absolute;
+    text-transform: lowercase;
+    top: 0;
+}
+.pricing-content-inner h3 span::after {
+    content: "/mo";
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: lowercase;
+}
+.pricing-content-inner h3 {
+    position: relative;
+}
+.pricing-content-inner ul {
+    list-style: outside none none;
+    margin: 30px 0;
+    padding: 0;
+}
+.pricing-content-inner ul li {
+    color: #64b5ff;
+    line-height: 35px;
+}
+a.pricing-btn {
+    background: #64b5ff none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 10px 15px;
+    transition: all 1s ease 0s;
+}
+a.pricing-btn:hover, a.pricing-btn.active:hover {
+    background: #222 none repeat scroll 0 0;
+    color: #fff;
+}
+a.pricing-btn.active {
+    background: #fb5d6b none repeat scroll 0 0;
+}
+.single-price::after {
+    background: #222 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    opacity: 0.3;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1px;
+}
+.single-price:last-child::after {
+    display: none;
+}
+.pricing-content {
+    box-shadow: 0 0 10px #222;
+    overflow: hidden;
+}
+
